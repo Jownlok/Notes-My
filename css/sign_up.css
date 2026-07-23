@@ -1,0 +1,78 @@
+@media screen and (max-width: 640px){
+html,
+body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    body {
+        background: linear-gradient(to top, #DC4652, #ffffff);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1 {
+        align-self: center;font-family: sans-serif;
+    }
+    h3 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;opacity: 0.5; margin-left: 8px; font-size: small;
+    }
+
+    h4 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 8px; font-size:medium;
+    }
+
+    /* Bloco1 */
+
+    header {
+        display: flex; justify-content: center; flex-flow:column;align-items: center;height: 60%;
+    }
+    .Titulo1{
+        margin-bottom: 32px;
+    }
+    .signupbox{
+        flex-flow: column; justify-content: center; display: flex; width: 80%; 
+    }
+    .Name{
+        font-size:large; margin-bottom: 32px;
+        align-self: center; width: 80%; height: 60px; border-radius: 10px; border: none; box-shadow: 0px 4px 4px rgb(104, 104, 104);
+    }
+    .Email{
+        font-size:large;
+        align-self: center; width: 80%; height: 60px; border-radius: 10px; border: none; box-shadow: 0px 4px 4px rgb(104, 104, 104);
+    }
+    .Password{
+        margin-top: 32px;font-size:large;
+        align-self: center; width: 80%; height: 60px; border-radius: 10px; border: none; box-shadow: 0px 4px 4px rgb(104, 104, 104);
+    }
+    .Create{
+        margin-top: 32px; background-color: #DC4652; color: white; font-size:large;
+        align-self: center; width: 80%; height: 60px; border-radius: 10px; border: none; box-shadow: 0px 4px 4px rgb(104, 104, 104);
+    }
+    .Create:hover{
+        background-color: #E57F74;cursor:pointer;
+    }
+
+    /* Bloco 2 */
+    article {
+        display: flex; flex-flow: column; justify-content: center; align-items: center; 
+    }
+    .Titulo2{
+        justify-self: center;
+    }
+    .Google{
+        background-color: white; justify-self: center; width: 15%;height:15%;display: flex; padding: 5px; border-radius: 10px;box-shadow: 0px 4px 4px rgb(104, 104, 104);
+    }
+    .Google:hover{
+        opacity: 0.8;cursor:pointer;
+    }
+    .Titulo3{
+        color:rgb(0, 0, 0); text-decoration: none; border:
+    }
+    .signup{
+        display: flex; flex-direction:row; margin-top: 152px;
+    }
+    .Titulo3:hover{
+        opacity: 0.8; cursor:pointer;
+    }
+}

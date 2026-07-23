@@ -1,0 +1,45 @@
+    html,
+    body {
+        margin: 0;width: 100%;height: 100%;justify-content: center;display: block;
+        display: ;background: linear-gradient(to top, #DC4652, #ffffff);background-repeat: no-repeat;background-size: cover;
+    }
+
+    
+    h1 {
+        align-self: center;font-family: sans-serif;
+    }
+    h3 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;opacity: 0.5; margin-left: 8px; font-size: small;
+    }
+
+    h4 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 8px; font-size:medium;
+    }
+    /* Bloco 1 */
+    header{
+        width: 310px; height: 80px; display: flex; justify-content: center; background-color: white; border-radius: 12px;box-shadow: 0px 5px 5px rgb(211, 209, 209); justify-self: center;
+    }
+    /* Bloco 2 */
+    article{
+        margin-top: 10px;margin-bottom: 10px; overflow: hidden;
+        width: 600px; height: 460px; justify-self: center; border-radius: 12px; background-color: white;
+    }
+    textarea{
+        width: 100%; height: 58px;resize: none; border: none; background-color: rgb(255, 203, 196); font-size: xx-large;
+    }
+    /* Bloco 3 - NavBar */
+    nav{
+        width: 100%; height: 80px; position: fixed; bottom: 0;background-color: rgb(255, 203, 196); display: flex; justify-content: center; align-items: center;gap: 50px; 
+    }
+    .homeICON{
+       background-color: white; padding: 10px; width: 60px; justify-content: center; display: flex; border-radius: 12px; box-shadow: 0px 5px 5px rgb(216, 199, 199);
+    }
+     .settingsICON{
+       background-color: white; padding: 10px; width: 60px; justify-content: center; display: flex; border-radius: 12px; box-shadow: 0px 5px 5px rgb(216, 199, 199);
+    }
+    .homeICON:hover{
+        opacity: 0.5;
+    }
+    .settingsICON:hover{
+        opacity: 0.5;
+    }
